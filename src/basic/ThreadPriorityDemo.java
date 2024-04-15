@@ -19,7 +19,7 @@ public class ThreadPriorityDemo extends Thread {
     @Override
     public void run() {
         Instant now = Instant.now();
-        for (long i = 0; i < 1_000_000_000L; i++) {
+        for (int i = 0; i < 1_000_000_000; i++) {
         }
         Duration duration = Duration.between(now, Instant.now());
         System.out.println(Thread.currentThread().getName() + " " + duration);
