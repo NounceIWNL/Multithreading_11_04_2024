@@ -65,6 +65,7 @@ public class Checkout {
         }
     }
 
+
     static class Customer implements Runnable {
         public int id = numCustomer.getAndIncrement();
         public double sum = Math.random() * 100; //Общая сумма покупки
