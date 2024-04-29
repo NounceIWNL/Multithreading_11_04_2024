@@ -4,6 +4,8 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
+//похоже на домашку
+
 /*
 Касса в магазине.
 Первый поток (продавец) находится на кассе.
